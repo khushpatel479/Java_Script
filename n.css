@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+
+body
+{
+    background-color: whitesmoke;
+
+}
+img
+{
+    height: 400px;
+    width: 350px;
+    background-size: cover;
+    transition: 0.5 linear;
+}
+.cointaner
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.intro
+{
+    height: 60px;
+    width: 350px;
+    background: rgb(27,27,27,.5);
+    position: relative;
+    bottom: 64px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    transition: 0.5s linear;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    
+}
+.card
+{
+    height: 500px;
+    margin: 20px;
+}
+p
+{
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s linear;
+}
+h1
+{
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover
+{
+    cursor: pointer;
+
+}
+.card:hover .intro
+{
+    height: 170px;
+    bottom: 175px;
+}
+.card:hover p{
+    visibility: visible;
+    opacity: 1;
+  
+}
+.card:hover h1{
+    visibility: visible;
+    opacity: 1;
+   
+}
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}

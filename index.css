@@ -1,0 +1,46 @@
+.dl
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    overflow: hidden;
+    /* display: inline; */
+    position: fixed;
+    
+}
+.img1
+{
+    height: 200px;
+    width: 200px;
+   position: absolute;
+   /* margin-bottom: 200px; */
+  
+}
+.img2
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    /* margin-top: 200px; */
+    
+}
+.btn1
+{
+    position: absolute;
+    margin-top: 220px;
+}
+.btn2
+{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+
+.ac1
+{
+     margin-bottom: 200px;
+}
+.ac2
+{
+    margin-top: 200px;
+}
